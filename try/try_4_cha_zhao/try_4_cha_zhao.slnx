@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="try_4_cha_zhao/try_4_cha_zhao.vcxproj" />
+</Solution>
