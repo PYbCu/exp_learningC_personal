@@ -15,18 +15,18 @@ void main()
 		//即将数组作为特定值的计数工具
 		if (chopstick <= 0)
 		{
-			is_invalid = 0;//用一个标记变量指示输入数据是否合法
+			is_invalid = 0;//用一个标记变量指示输入数据是否合法，将标记变量用好，作为if条件之一
 		}
 		else
 		{
-			count[chopstick]++;//chopstick充当一个标识作用
+			count[chopstick]++;//chopstick充当一个标识作用（0或1）
 		}
 	}
 	for (i = 0;i < 100;i++)//i即充当长度遍历
 	{
 		if (count[i] % 2 != 0)
 		{
-			odd_count++;
+			odd_count++;//错误数据加1
 			lost_length = i;
 		}
 
