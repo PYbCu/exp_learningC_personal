@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="exp_6.7_数组与函数综合/exp_6.7_数组与函数综合.vcxproj" />
+</Solution>

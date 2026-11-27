@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="exp_7.10_公式前30项的和/exp_7.10_公式前30项的和.vcxproj" />
+</Solution>

@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="exp_7.12_求汉明距离/exp_7.12_求汉明距离.vcxproj" />
+</Solution>

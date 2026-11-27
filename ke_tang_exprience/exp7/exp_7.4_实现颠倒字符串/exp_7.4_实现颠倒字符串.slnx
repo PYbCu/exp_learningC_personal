@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="exp_7.4'/exp_7.4'.vcxproj" />
+  <Project Path="exp_7.4_实现颠倒字符串/exp_7.4_实现颠倒字符串.vcxproj" />
+</Solution>

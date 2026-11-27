@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="exp_7.1_数组所有元素的积/exp_7.1_数组所有元素的积.vcxproj" Id="fdcc225a-ac9a-40d9-bb43-52a62cfa3226" />
+</Solution>

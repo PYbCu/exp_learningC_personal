@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="exp_7.2_找出一个数组中的最大元素值及其位置/exp_7.2_找出一个数组中的最大元素值及其位置.vcxproj" Id="4a78c2b8-6ac1-475c-99b7-4c98e8828bb1" />
+</Solution>

@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="exp7.7(2)/exp7.7(2).vcxproj" />
+  <Project Path="exp_7.7_使用全局变量和静态局部变量完成调用次数计算/exp_7.7_使用全局变量和静态局部变量完成调用次数计算.vcxproj" />
+</Solution>

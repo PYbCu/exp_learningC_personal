@@ -4,7 +4,7 @@ int main()
 {
 	char op;//更建议的是，分别设置int op和char choice，一个负责读菜单，一个负责得到运算符，再给到h_choice保存运算符
 	int i = 0;
-	float h_a[N] = { 0 }, h_b[N] = { 0 };//只要5个，进行轮环不会乱
+	float h_a[N] = { 0 }, h_b[N] = { 0 }, h_res[N] = { 0 };//只要5个，进行轮环不会乱
 	char h_op[N] = { 0 };
 	float a, b, res;
 	int count = 0, idx = 0;//count:计算当前保留了多少条历史记录，idx:记录当前应该把新数据存到哪个下标
@@ -58,10 +58,11 @@ int main()
 			h_a[idx] = a;
 			h_b[idx] = b;
 			h_op[idx] = op;
-			idx == (idx++) % 5;//指向下一个将要被覆盖的格子,进行轮转
-			//(idx++)在C中是未定义行为，易出错
+			h_res[idx] = res;
+			idx = (idx+1) % 5;//指向下一个将要被覆盖的格子,进行轮转
+			//(idx++)在C中是未定义行为，易出错,一般在C中，某某++只能单独使用
 			if (count < 5)
-				count = count++;
+				count++;//count=count++是未定义行为
 			break;
 		}
 		case '5':
@@ -73,8 +74,9 @@ int main()
 				int start = (idx - count + 5) % 5;//找到开始：count是否已到5
 				for (int i = 0;i < count;i++)
 				{
-					int real_idx = start + i;//加i位
-					printf("%.2f %c %.2f= %.2f\n", h_a[real_idx], h_op[real_idx], h_b[real_idx]);
+					int real_idx = (start + i)%5;//加i位,要取余，因为数组的下标是从0到4的
+					//不然你就写（idx-count+5+i）%5;
+					printf("%.2f %c %.2f= %.2f\n", h_a[real_idx], h_op[real_idx], h_b[real_idx],h_res[real_idx]);
 				}
 			}
 			break;

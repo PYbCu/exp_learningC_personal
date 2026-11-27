@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="exp_7.14_矩阵编程实现功能/exp_7.14_矩阵编程实现功能.vcxproj" />
+</Solution>

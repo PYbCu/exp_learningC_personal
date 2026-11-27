@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="exp8.2/exp8.2.vcxproj" />
+  <Project Path="exp8.3/exp8.3.vcxproj" />
+  <Project Path="exp8.4/exp8.4.vcxproj" />
+  <Project Path="exp8/exp8.vcxproj" />
+</Solution>

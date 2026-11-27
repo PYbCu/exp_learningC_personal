@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="exp_7.5_数据的插入和排序/exp_7.5_数据的插入和排序.vcxproj" />
+</Solution>
